@@ -9,7 +9,7 @@ _nuances, missing features, strange API, things to watchout, and wishlist_
 ## Batch API
 
 - Batch API in go client does not match official API and is not working. not resolved for 6+ months, as of 2026-03-03 still not resolved. Google maintainers ignore bug reports[^1][^2][^3][^4][^5]. the only viable path for BatchAPI is to define your own type and schema.
-- confusing and low quality errors in schema validation[^6]
+- confusing and low quality errors in schema validation[^6]. maintainers are not addressing the root of problem.
 - Batch API iterates over full BigQuery table on every inference request
 - Batch API silently discards request fields that it does not recognize (e.g. arrays, maps). only scalar types are allowed
 
