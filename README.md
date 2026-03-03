@@ -4,7 +4,7 @@ _nuances, missing features, strange API, things to watchout, and wishlist_
 
 ## Model Deprecations
 
-- GCP unilaterally deprecates models (with 2 weeks notice) to more expensive models, with worse performance. GCP representatives just shrug their shoulders. relying on GCP is a risk to your business.
+- GCP unilaterally deprecates models (with 2 weeks notice) to more expensive models with worse performance. GCP representatives just shrug their shoulders. relying on GCP is a risk to your business.
 
 ## Batch API
 
