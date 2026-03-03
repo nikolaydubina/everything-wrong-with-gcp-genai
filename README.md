@@ -13,3 +13,4 @@ _nuances, missing features, strange API, things to watchout, and wishlist_
 - `gemini-embedding-001` does not support generic Batch API inference requests
 - Vertex AI does not support `batches.createEmbeddings`
 - `CreateEmbeddings` supports only local-file or inlined requests, no Cloud Storage Support
+- `CreateEmbeddings` may or may not provide output destination file upon job creation. It is also not possible to specify it ahead of time. This means it is not possible to set up Cloud Storage object notifications through Pub/Sub.
