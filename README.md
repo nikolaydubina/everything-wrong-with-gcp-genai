@@ -9,6 +9,7 @@ _nuances, missing features, strange API, things to watchout, and wishlist_
 
 ## Embeddings
 
+- As of 2026-03-03, it is not possible to compute embeddings in Batch API
 - `gemini-embedding-001` does not support generic Batch API inference requests
 - Vertex AI does not support `batches.createEmbeddings`
 - `CreateEmbeddings` supports only local-file or inlined requests, no Cloud Storage Support
